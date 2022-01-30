@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #ededed;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #242424;
+  margin: 2em;
+}
+
+.App {
+  max-width: 650px;
+  margin: 0 auto;
+}
+

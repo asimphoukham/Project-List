@@ -1,0 +1,80 @@
+.modal-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal {
+    background: white;
+    border: solid 1px rgb(116, 116, 116);
+    border-radius: 8px;
+    max-width: 450px;
+    width: 100%;
+    margin: 10em auto;
+  }
+  
+  .modal-header {
+    padding: 1.5em 1.5em 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .modal-body {
+    padding: 1.5rem 1.5em;
+  }
+  
+  .modal-footer {
+    padding: 1.5em 1.5em;
+    border-top: solid 1px #acacac;
+  }
+  
+  .modal-actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .modal-actions > button {
+    margin-right: 8px;
+  }
+  
+  .close-btn {
+    border: solid #535353 1px;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: #ffffff;
+    color: #535353;
+    padding: 0.2em 0.5em;
+  }
+  
+  .close-btn:hover {
+    color: black;
+    border-color: black;
+    cursor: pointer;
+  }
+  
+  .remove-btn {
+    border-color: transparent;
+    background-color: #797979;
+    color: white;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 0.5em 1em;
+  }
+  
+  .cancel-btn {
+    background-color: white;
+    color: #535353;
+    border-radius: 5px;
+    border: solid #535353 1px;
+    padding: 0.5em 1em;
+  }
+  
+  .cancel-btn:hover {
+    color: black;
+    border-color: black;
+    cursor: pointer;
+  }
+  
